@@ -15,6 +15,15 @@
 		F22AFC5A1E07E7C3009BE711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22AFC581E07E7C3009BE711 /* LaunchScreen.storyboard */; };
 		F22AFC651E07E7C3009BE711 /* SYWouldHandleHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC641E07E7C3009BE711 /* SYWouldHandleHelpTests.m */; };
 		F22AFC701E07E7C3009BE711 /* SYWouldHandleHelpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC6F1E07E7C3009BE711 /* SYWouldHandleHelpUITests.m */; };
+		F22AFC8F1E07E814009BE711 /* imss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F22AFC7E1E07E814009BE711 /* imss.jpg */; };
+		F22AFC901E07E814009BE711 /* LineWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC801E07E814009BE711 /* LineWidthView.m */; };
+		F22AFC911E07E814009BE711 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC821E07E814009BE711 /* MyView.m */; };
+		F22AFC921E07E814009BE711 /* MyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC841E07E814009BE711 /* MyViewModel.m */; };
+		F22AFC931E07E814009BE711 /* ToolcolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC861E07E814009BE711 /* ToolcolorView.m */; };
+		F22AFC941E07E814009BE711 /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC881E07E814009BE711 /* ToolView.m */; };
+		F22AFC951E07E814009BE711 /* ToolViewBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC8A1E07E814009BE711 /* ToolViewBtn.m */; };
+		F22AFC961E07E814009BE711 /* UIColor+SYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC8C1E07E814009BE711 /* UIColor+SYColor.m */; };
+		F22AFC971E07E814009BE711 /* UIImage+SYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F22AFC8E1E07E814009BE711 /* UIImage+SYImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		F22AFC6B1E07E7C3009BE711 /* SYWouldHandleHelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYWouldHandleHelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22AFC6F1E07E7C3009BE711 /* SYWouldHandleHelpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYWouldHandleHelpUITests.m; sourceTree = "<group>"; };
 		F22AFC711E07E7C3009BE711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22AFC7E1E07E814009BE711 /* imss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imss.jpg; sourceTree = "<group>"; };
+		F22AFC7F1E07E814009BE711 /* LineWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineWidthView.h; sourceTree = "<group>"; };
+		F22AFC801E07E814009BE711 /* LineWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineWidthView.m; sourceTree = "<group>"; };
+		F22AFC811E07E814009BE711 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		F22AFC821E07E814009BE711 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		F22AFC831E07E814009BE711 /* MyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewModel.h; sourceTree = "<group>"; };
+		F22AFC841E07E814009BE711 /* MyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewModel.m; sourceTree = "<group>"; };
+		F22AFC851E07E814009BE711 /* ToolcolorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolcolorView.h; sourceTree = "<group>"; };
+		F22AFC861E07E814009BE711 /* ToolcolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolcolorView.m; sourceTree = "<group>"; };
+		F22AFC871E07E814009BE711 /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		F22AFC881E07E814009BE711 /* ToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+		F22AFC891E07E814009BE711 /* ToolViewBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewBtn.h; sourceTree = "<group>"; };
+		F22AFC8A1E07E814009BE711 /* ToolViewBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewBtn.m; sourceTree = "<group>"; };
+		F22AFC8B1E07E814009BE711 /* UIColor+SYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYColor.h"; sourceTree = "<group>"; };
+		F22AFC8C1E07E814009BE711 /* UIColor+SYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYColor.m"; sourceTree = "<group>"; };
+		F22AFC8D1E07E814009BE711 /* UIImage+SYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYImage.h"; sourceTree = "<group>"; };
+		F22AFC8E1E07E814009BE711 /* UIImage+SYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +131,7 @@
 				F22AFC4E1E07E7C3009BE711 /* AppDelegate.m */,
 				F22AFC501E07E7C3009BE711 /* ViewController.h */,
 				F22AFC511E07E7C3009BE711 /* ViewController.m */,
+				F22AFC7D1E07E814009BE711 /* 画图相关 */,
 				F22AFC531E07E7C3009BE711 /* Main.storyboard */,
 				F22AFC561E07E7C3009BE711 /* Assets.xcassets */,
 				F22AFC581E07E7C3009BE711 /* LaunchScreen.storyboard */,
@@ -138,6 +165,30 @@
 				F22AFC711E07E7C3009BE711 /* Info.plist */,
 			);
 			path = SYWouldHandleHelpUITests;
+			sourceTree = "<group>";
+		};
+		F22AFC7D1E07E814009BE711 /* 画图相关 */ = {
+			isa = PBXGroup;
+			children = (
+				F22AFC7E1E07E814009BE711 /* imss.jpg */,
+				F22AFC7F1E07E814009BE711 /* LineWidthView.h */,
+				F22AFC801E07E814009BE711 /* LineWidthView.m */,
+				F22AFC811E07E814009BE711 /* MyView.h */,
+				F22AFC821E07E814009BE711 /* MyView.m */,
+				F22AFC831E07E814009BE711 /* MyViewModel.h */,
+				F22AFC841E07E814009BE711 /* MyViewModel.m */,
+				F22AFC851E07E814009BE711 /* ToolcolorView.h */,
+				F22AFC861E07E814009BE711 /* ToolcolorView.m */,
+				F22AFC871E07E814009BE711 /* ToolView.h */,
+				F22AFC881E07E814009BE711 /* ToolView.m */,
+				F22AFC891E07E814009BE711 /* ToolViewBtn.h */,
+				F22AFC8A1E07E814009BE711 /* ToolViewBtn.m */,
+				F22AFC8B1E07E814009BE711 /* UIColor+SYColor.h */,
+				F22AFC8C1E07E814009BE711 /* UIColor+SYColor.m */,
+				F22AFC8D1E07E814009BE711 /* UIImage+SYImage.h */,
+				F22AFC8E1E07E814009BE711 /* UIImage+SYImage.m */,
+			);
+			path = "画图相关";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +303,7 @@
 				F22AFC5A1E07E7C3009BE711 /* LaunchScreen.storyboard in Resources */,
 				F22AFC571E07E7C3009BE711 /* Assets.xcassets in Resources */,
 				F22AFC551E07E7C3009BE711 /* Main.storyboard in Resources */,
+				F22AFC8F1E07E814009BE711 /* imss.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22AFC921E07E814009BE711 /* MyViewModel.m in Sources */,
 				F22AFC521E07E7C3009BE711 /* ViewController.m in Sources */,
+				F22AFC901E07E814009BE711 /* LineWidthView.m in Sources */,
 				F22AFC4F1E07E7C3009BE711 /* AppDelegate.m in Sources */,
 				F22AFC4C1E07E7C3009BE711 /* main.m in Sources */,
+				F22AFC961E07E814009BE711 /* UIColor+SYColor.m in Sources */,
+				F22AFC911E07E814009BE711 /* MyView.m in Sources */,
+				F22AFC941E07E814009BE711 /* ToolView.m in Sources */,
+				F22AFC931E07E814009BE711 /* ToolcolorView.m in Sources */,
+				F22AFC971E07E814009BE711 /* UIImage+SYImage.m in Sources */,
+				F22AFC951E07E814009BE711 /* ToolViewBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
