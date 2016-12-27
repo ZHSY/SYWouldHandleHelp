@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+
+#import "BasTabViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    window.backgroundColor = [UIColor whiteColor];
+    self.window = window;
+    
+    [window makeKeyAndVisible];
+    
+    
+    
+    BasTabViewController *tabVC = [[BasTabViewController alloc] init];
+    
+//    SYViewController *VC = [[SYViewController alloc] init];
+//    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:VC];
+  
+    
+    window.rootViewController = tabVC;
+    
+    
+    
+    
+    
     return YES;
 }
 
